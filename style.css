@@ -1,0 +1,110 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #96A37F;
+  background-color: #F0F1EF;
+}
+p{
+  font-weight: 100;
+  font-weight: 100;
+  padding: 5px;
+  margin: 5px;
+}
+h1, h2,{
+  text-align: center;
+}
+h1 {
+  font-size: 36px;
+  line-height: 22px;
+  color: #606851;
+}
+h2 {
+  font-size: 18px;
+  line-height: 20px;
+}
+h3 {
+  font-size: 15px;
+  line-height: 17px;
+  color: #606851;
+  padding: 5px;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+   color: #96A37F;
+}
+a:hover {
+ color: #454B3A;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    font-size: 32px;
+    width: 60px;
+}
+img {
+  width: 150px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+#footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 32px;
+}
+#circle{
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 2px 2px #F0F1EF;
+}
+.container{
+  margin:10px auto;
+  padding: 10px;
+  width: 650px;
+  border: 2px solid #F5F6F1;
+  border-radius: 5px;
+  background-color: #FFFDF7;
+}
+.center{
+  text-align: center;
+}
+.card{
+  text-align: left;
+}
+/*Specs
+Here is your objective.
+/**/
+/*You should start with the following structure for your page
+<div class="container">
+  <div class="card"></div>
+  <div class="card"></div>
+  <div class="card"></div>
+  <div class="card"></div>
+</div>
+The <div class="container"> is here to center the page content
+using left & right margins to prevent it taking 100% of the window (which would be ugly).
+The <div class="card"> is used to group information into a nice white box.
+Add cool touches to your cards using CSS properties like background, border,
+border-radius and box-shadow. Keep it simple*/
+/*with white background and subtle radius and shadows (as you saw in the lecture).*/
+
+/*Specs
+This is an example of what you need to create. Here is a list of CSS rules to write:
+
+Body
+Pick a nice background-color, font-family, color, font-size and line-height for the <body>.
+Setting these font rules at the body-level will apply them on all basic text tags (<p>, <li>, etc.).
+
+Headers
+Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
+Choose harmonious font-size and line-height for headers
+Hint: small headers are more elegant. If you check out any website (Medium, Airbnb, etc.),
+you'll see that the font-size of their headers is quite small.
+Links
+Change the color & text-decoration of all the links
+Add hover effects to links using the pseudo-class a:hover.*/
