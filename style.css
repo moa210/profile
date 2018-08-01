@@ -1,7 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   color: #96A37F;
-  background-color: #F0F1EF;
+  background-color: white;
 }
 p{
   font-weight: 100;
@@ -11,29 +11,31 @@ p{
 }
 h1, h2,{
   text-align: center;
+  color: #4A4E3F;
 }
 h1 {
   font-size: 36px;
   line-height: 22px;
-  color: #606851;
 }
 h2 {
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 h3 {
   font-size: 15px;
-  line-height: 17px;
-  color: #606851;
+  line-height: 19px;
+  color: #4A4E3F;
   padding: 5px;
   margin: 5px;
 }
 a {
   text-decoration: none;
-   color: #96A37F;
+   color: #4A4E3F;
 }
 a:hover {
- color: #454B3A;
+ color: #A8ACA0;
 }
 
 ul {
@@ -41,40 +43,90 @@ ul {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+    padding: 0px;
 }
 li {
     display: inline-block;
     font-size: 32px;
     width: 60px;
 }
-img {
+img{
   width: 150px;
   border-radius: 5px;
   opacity: 0.9;
+}
+div{
+  border-radius: 5px;
 }
 #footer{
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 32px;
 }
+.small-text{
+  font-size: 10px;
+  line-height: 16px;
+}
 #circle{
+  overflow: hidden;
   width: 200px;
+  height: 200px;
   border-radius: 50%;
-  box-shadow: 2px 2px #F0F1EF;
+  box-shadow: 5px 5px #F9F9F2;
 }
 .container{
   margin:10px auto;
   padding: 10px;
   width: 650px;
-  border: 2px solid #F5F6F1;
+  border: 2px solid #F9F9F2;
   border-radius: 5px;
-  background-color: #FFFDF7;
+  background-color: #FEFEFC;
 }
 .center{
   text-align: center;
 }
 .card{
   text-align: left;
+}
+#sylvian{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f7/Sylvan_Esso%2C_MS_Dockville%2C_August_2015.jpg");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 150px;
+  height: 100px;
+}
+#abra{
+  background-image: url("https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,f_auto,h_413,w_620/v1406775130/ozw6llxsyvdjjwauzsvd.jpg");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 150px;
+  height: 100px;
+}
+#coffe{
+  background-image: url("https://www.billboard.com/files/styles/article_main_image/public/media/Black-Coffee-press-photo-2016-billboard-650.jpg");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 150px;
+  height: 100px;
+}
+#bowie{
+  background-image: url("https://i.ytimg.com/vi/61QI9Gt304w/maxresdefault.jpg");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 150px;
+  height: 100px;
+}
+#noze{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjEzXFJF7jlIlFuocO_ksv0AU33ZJ_f8uqidPN9SYXO-r879ioZw");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 150px;
+  height: 100px;
 }
 /*Specs
 Here is your objective.
