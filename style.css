@@ -99,7 +99,7 @@ div{
   width: 100%;
 }
 
-.sticky + .content{
+.sticky.content{
   padding-top: 334px;
 }
 
