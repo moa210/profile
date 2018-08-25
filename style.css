@@ -93,6 +93,15 @@ div{
 #navbar {
   overflow: hidden;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
 
 #sylvian{
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f7/Sylvan_Esso%2C_MS_Dockville%2C_August_2015.jpg");
