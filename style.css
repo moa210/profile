@@ -90,6 +90,11 @@ div{
 .card{
   text-align: left;
 }
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
 #sylvian{
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f7/Sylvan_Esso%2C_MS_Dockville%2C_August_2015.jpg");
   background-size: 150px;
@@ -130,35 +135,3 @@ div{
   width: 150px;
   height: 100px;
 }
-/*Specs
-Here is your objective.
-/**/
-/*You should start with the following structure for your page
-<div class="container">
-  <div class="card"></div>
-  <div class="card"></div>
-  <div class="card"></div>
-  <div class="card"></div>
-</div>
-The <div class="container"> is here to center the page content
-using left & right margins to prevent it taking 100% of the window (which would be ugly).
-The <div class="card"> is used to group information into a nice white box.
-Add cool touches to your cards using CSS properties like background, border,
-border-radius and box-shadow. Keep it simple*/
-/*with white background and subtle radius and shadows (as you saw in the lecture).*/
-
-/*Specs
-This is an example of what you need to create. Here is a list of CSS rules to write:
-
-Body
-Pick a nice background-color, font-family, color, font-size and line-height for the <body>.
-Setting these font rules at the body-level will apply them on all basic text tags (<p>, <li>, etc.).
-
-Headers
-Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
-Choose harmonious font-size and line-height for headers
-Hint: small headers are more elegant. If you check out any website (Medium, Airbnb, etc.),
-you'll see that the font-size of their headers is quite small.
-Links
-Change the color & text-decoration of all the links
-Add hover effects to links using the pseudo-class a:hover.*/
