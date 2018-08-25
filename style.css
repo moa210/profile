@@ -84,14 +84,6 @@ div{
   border-radius: 5px;
   background-color: #FEFEFC;
 }
-.container-first{
-  margin:0px auto;
-  padding: 10px;
-  width: 650px;
-  border: 2px solid #F9F9F2;
-  border-radius: 5px;
-  background-color: #FEFEFC;
-}
 .center{
   text-align: center;
 }
