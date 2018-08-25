@@ -107,8 +107,8 @@ div{
   width: 100%;
 }
 
-.sticky + .container{
-  padding-top: 60px;
+.sticky + .content{
+  padding-top: 334px;
 }
 
 #sylvian{
