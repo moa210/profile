@@ -11,9 +11,12 @@
   </head>
   <body>
     <div class="container center">
+      <div id="navbar">
+
       <img src="images/selfie.jpg" id="circle" alt="Klaudiusz">
         <h1>klaudiusz zembrzuski</h1>
       <h2>Junior Full Stack Developer</h2>
+      </div>
     </div>
     <div class="container center">
       <p>I am able to pick up new technologies quickly and I am devoted to ongoing development and challenging myself both professionally and personally.</p>
@@ -108,16 +111,20 @@
           <p>klaudiusz zembrzuski 2018</p>
         </div>
       </footer>
-      </div>
+      </div>                                                              
+    <script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
   </body>
 </html>
-<!-- Specs -->
-<!-- Build a simple -->
-<!--  HTML profile page with the following elements (use the right HTML tags):
-
-an image of yourself
-a header and sub-header with your name and your job title (you can put programmer now )
-a description of yourself
-a list of your social links
-a table showing your projects, favorite movies/programming languages/sport teams/recipes, etc. whatever you want.
-A picture is worth a thousand words, so here is what you should build in this challenge -->
