@@ -84,6 +84,15 @@ div{
   border-radius: 5px;
   background-color: #FEFEFC;
 }
+.container-first{
+  margin:10px auto;
+  padding-top: 0;
+  padding-bottom: 10px;
+  width: 650px;
+  border: 2px solid #F9F9F2;
+  border-radius: 5px;
+  background-color: #FEFEFC;
+}
 .center{
   text-align: center;
 }
@@ -99,7 +108,7 @@ div{
   width: 100%;
 }
 
-.sticky + .content {
+.sticky + .container-first{
   padding-top: 60px;
 }
 
