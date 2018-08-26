@@ -2,40 +2,47 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #96A37F;
   background-color: white;
+  margin: 0;
+  padding: 0;
 }
-p{
-  font-weight: 100;
+
+p {
   font-weight: 100;
   font-size: 14px;
   line-height: 16px;
   padding: 5px;
   margin: 5px;
 }
+
 h1, h2,{
   text-align: center;
   color: #4A4E3F;
+    line-height: 22px;
 }
+
 h1 {
   font-size: 36px;
-  line-height: 22px;
 }
+
 h2 {
   font-size: 20px;
-  line-height: 22px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
+
 h3 {
   font-size: 15px;
-  line-height: 19px;
+  line-height: 18px;
   color: #4A4E3F;
   padding: 5px;
   margin: 5px;
 }
+
 a {
   text-decoration: none;
    color: #4A4E3F;
 }
+
 a:hover {
  color: #A8ACA0;
 }
@@ -47,63 +54,100 @@ ul {
     text-align: center;
     padding: 0px;
 }
+
 li {
     display: inline-block;
     font-size: 32px;
     width: 60px;
 }
-img{
+
+img {
   width: 150px;
   border-radius: 5px;
   opacity: 0.9;
 }
-div{
+
+div {
   border-radius: 5px;
 }
-#footer{
+
+#footer {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 32px;
 }
-.small-text{
+
+.small-text {
   font-size: 10px;
   line-height: 16px;
 }
-#circle{
+
+#circle {
   overflow: hidden;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  box-shadow: 5px 5px #F9F9F2;
+  box-shadow: -3px 3px 5px rgba(0,0,0,0.2);
 }
-.container{
-  margin:10px auto;
-  padding: 10px;
+
+.container {
+  margin: 15px auto;
+  padding: 15px;
   width: 650px;
   border: 2px solid #F9F9F2;
   border-radius: 5px;
   background-color: #FEFEFC;
 }
-.center{
+
+/*.nav-wrapper {
+  height: 400.81px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+}*/
+.nav-placeholder {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 368px;
+}
+
+.container-first {
+  margin: 0 auto;
+  padding: 15px;
+  width: 650px;
+  border: 2px solid #F9F9F2;
+  border-radius: 5px;
+  background-color: #FEFEFC;
+}
+
+.center {
   text-align: center;
 }
-.card{
+
+.card {
   text-align: left;
 }
+
 #navbar {
   overflow: hidden;
 }
+
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
-
-.sticky.content{
-  padding-top: 334px;
+.content {
+padding: 16px;
 }
 
-#sylvian{
+.sticky + .content {
+  padding-top: 385px;
+}
+
+#sylvian {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f7/Sylvan_Esso%2C_MS_Dockville%2C_August_2015.jpg");
   background-size: 150px;
   background-repeat: no-repeat;
@@ -111,7 +155,8 @@ div{
   width: 150px;
   height: 100px;
 }
-#abra{
+
+#abra {
   background-image: url("https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,f_auto,h_413,w_620/v1406775130/ozw6llxsyvdjjwauzsvd.jpg");
   background-size: 150px;
   background-repeat: no-repeat;
@@ -119,7 +164,8 @@ div{
   width: 150px;
   height: 100px;
 }
-#coffe{
+
+#coffe {
   background-image: url("https://www.billboard.com/files/styles/article_main_image/public/media/Black-Coffee-press-photo-2016-billboard-650.jpg");
   background-size: 150px;
   background-repeat: no-repeat;
@@ -127,7 +173,8 @@ div{
   width: 150px;
   height: 100px;
 }
-#bowie{
+
+#bowie {
   background-image: url("https://i.ytimg.com/vi/61QI9Gt304w/maxresdefault.jpg");
   background-size: 150px;
   background-repeat: no-repeat;
@@ -135,7 +182,8 @@ div{
   width: 150px;
   height: 100px;
 }
-#noze{
+
+#noze {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjEzXFJF7jlIlFuocO_ksv0AU33ZJ_f8uqidPN9SYXO-r879ioZw");
   background-size: 150px;
   background-repeat: no-repeat;
